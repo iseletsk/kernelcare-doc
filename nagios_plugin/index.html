@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nagios Plugin | Documentation</title>
+    <meta name="description" content="Kernelcare documentation">
+    <script src="https://js.hs-scripts.com/5408110.js"></script>
+    
+    <link rel="preload" href="/assets/css/0.styles.aa8d4879.css" as="style"><link rel="preload" href="/assets/js/app.e4772670.js" as="script"><link rel="preload" href="/assets/js/16.a4bbb24c.js" as="script"><link rel="prefetch" href="/assets/js/10.d584627e.js"><link rel="prefetch" href="/assets/js/11.f2b751e2.js"><link rel="prefetch" href="/assets/js/12.5d0fa166.js"><link rel="prefetch" href="/assets/js/13.076200dc.js"><link rel="prefetch" href="/assets/js/14.802341b0.js"><link rel="prefetch" href="/assets/js/15.eddf1c5a.js"><link rel="prefetch" href="/assets/js/17.1e19c169.js"><link rel="prefetch" href="/assets/js/18.6cad723b.js"><link rel="prefetch" href="/assets/js/19.fc230c9a.js"><link rel="prefetch" href="/assets/js/20.deed30c1.js"><link rel="prefetch" href="/assets/js/21.ebacf6de.js"><link rel="prefetch" href="/assets/js/22.4e187fb4.js"><link rel="prefetch" href="/assets/js/23.5b4cd751.js"><link rel="prefetch" href="/assets/js/24.18e4d235.js"><link rel="prefetch" href="/assets/js/25.fa444b2f.js"><link rel="prefetch" href="/assets/js/3.77131f55.js"><link rel="prefetch" href="/assets/js/4.9d5cd77f.js"><link rel="prefetch" href="/assets/js/5.2ea995a5.js"><link rel="prefetch" href="/assets/js/6.ccdec5d2.js"><link rel="prefetch" href="/assets/js/7.7469ee64.js"><link rel="prefetch" href="/assets/js/8.0518e05f.js"><link rel="prefetch" href="/assets/js/9.a3831415.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.97bda272.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.aa8d4879.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.svg" alt="Documentation" class="logo"> <span class="site-name site-name--documentation can-hide">Documentation</span></a> <form id="search-form" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <div class="links" style="max-width:nullpx;"><a href="https://cloudlinux.com/kernelcare-free-trial5" target="_blank" class="btn">
+      Try Free
+    </a> <nav class="nav-links can-hide"></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><div class="sidebar-heading open"><span>Content</span> <!----></div> <ul class="sidebar-group-items"><li><a href="/installation/" class="sidebar-link">Installation of KernelCare</a></li><li><a href="/settings/" class="sidebar-link">Basic Management</a></li><li><a href="/command_line/" class="sidebar-link">Command Line Tools</a></li><li><a href="/config_options/" class="sidebar-link">Config Options</a></li><li><a href="/disabling_some_patches/" class="sidebar-link">Disabling Some Patches</a></li><li><a href="/delayed_feed/" class="sidebar-link">Delayed Feed</a></li><li><a href="/extra_patchset/" class="sidebar-link">Extra Patchset</a></li><li><a href="/sticky_patches/" class="sidebar-link">Sticky Patches</a></li><li><a href="/nagios_plugin/" class="active sidebar-link">Nagios Plugin</a></li><li><a href="/zabbix_template/" class="sidebar-link">Zabbix Template</a></li><li><a href="/upgrade/" class="sidebar-link">Upgrade</a></li><li><a href="/uninstall/" class="sidebar-link">Uninstall KernelCare</a></li><li><a href="/technology/" class="sidebar-link">Technology</a></li><li><a href="/AWS_deployment_guide/" class="sidebar-link">KernelCare on AWS – Deployment User Guide</a></li><li><a href="/reseller_partner_ui/" class="sidebar-link">Reseller Partner UI</a></li><li><a href="/kernelcare_enterprise/" class="sidebar-link">KernelCare.ePortal</a></li><li><a href="/kcare-nexpose/" class="sidebar-link">Kcare-nexpose</a></li><li><a href="/kernelcare_whmcs_plugin/" class="sidebar-link">KernelCare WHMCS Plugin</a></li><li><a href="/proxy_settings/" class="sidebar-link">Firewall and Proxy Settings</a></li><li><a href="/eol_ubuntu_lts_kernels_support/" class="sidebar-link">EOL Ubuntu LTS kernels support</a></li></ul></div></li></ul> </div> <div class="page"> <div class="breadcrumb-wrapper page-breadcrumb" data-v-5e0e0acf><span class="breadcrumb-title" data-v-5e0e0acf>Documentation:</span> <a href="/nagios_plugin/" class="breadcrumb router-link-exact-active router-link-active" data-v-5e0e0acf>
+    Nagios Plugin
+  </a></div> <div class="page-nav-wrapper"><div class="page-nav"><a href="/sticky_patches/" class="link prev">
+      ←
+    </a> <a href="/zabbix_template/" class="link">
+      →
+    </a></div></div> <div class="content"><h1 id="nagios-plugin"><a href="#nagios-plugin" aria-hidden="true" class="header-anchor">#</a> Nagios Plugin</h1> <p><code>check_kcare</code> is a Nagios plugin that provides a way to monitor the out of date and inactive servers. It can provide information on servers assigned to the KernelCare key, or for all the servers in partner account.</p> <p>Start from installing Nagios monitoring system.</p> <p>You can download the plugin from <a href="http://patches.kernelcare.com/downloads/nagios/check_kcare" target="_blank" rel="noopener noreferrer">http://patches.kernelcare.com/downloads/nagios/check_kcare<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>Place the plugin into <code>/usr/lib64/nagios/plugins/</code> directory and make this script executable by running:</p> <div class="language- extra-class"><pre class="language-text"><code>chmod +x /usr/lib64/nagios/plugins/check_kcare
+</code></pre></div><p>Create <code>kcare.cfg</code> configuration file from the template below and place it into <code>/etc/nagios/conf.d/</code> directory.</p> <p>You will also need to specify your KernelCare key instead of <code>KERNELCARE_KEY</code>. If the licenses are IP-based, you can find your login &amp; API security token in <em>Profile</em> section of your CLN account.</p> <p>Restart Nagios service and go to Nagios Web UI (http://NAGIOS_IP/nagios/). Click on <em>Services</em> link (top left under <em>Hosts</em>). You should be able to see a string showing an output from monitoring script (please see screenshots below).</p> <p>Script options:</p> <table><thead><tr><th></th> <th></th></tr></thead> <tbody><tr><td><code>-k KERNELCARE_KEY</code></td> <td>retrieve status for servers associated with KEY</td></tr> <tr><td><code>-l PARTNER_LOGIN --api-token TOKEN</code></td> <td>retrieve status for all servers in partner account based on login/token</td></tr> <tr><td><code>-c o,u,i -- return CRITICAL</code></td> <td>list of coma separated o, u &amp; i.<br><code>o</code> - out of date<br><code>u</code> - unknown kernel<br><code>i</code> - inactive server</td></tr> <tr><td><code>-w o,u,i -- return WARNING</code></td> <td>list of coma separated o, u &amp; i.<br><code>o</code> - out of date<br><code>u</code> - unknown kernel<br><code>i</code> - inactive server</td></tr></tbody></table> <p>Here is an example configuration for key-based KernelCare licenses (IP-based section is commented out here):</p> <p>Example host to associate the KernelCare status check service with</p> <div class="language- extra-class"><pre class="language-text"><code>define host {
+      host_name                       kcare-service
+      notifications_enabled           0
+      max_check_attempts             1
+      notification_interval           0
+      check_period                   24x7
+}
+ 
+ 
+define command {
+      command_name     check_kcare
+      command_line     /usr/lib64/nagios/plugins/check_kcare -k $ARG1$
+}
+ 
+define command {
+      command_name     check_kcare_opts
+      command_line     /usr/lib64/nagios/plugins/check_kcare -k $ARG1$ -c $ARG2$ -w $ARG3$
+}
+define command {
+      command_name     check_kcare_partner
+      command_line     /usr/lib64/nagios/plugins/check_kcare -l $ARG1$ --api-token $ARG2$
+}
+ 
+define command {
+      command_name     check_kcare_partner_opts
+      command_line     /usr/lib64/nagios/plugins/check_kcare -k $ARG1$ -l $ARG1$ --api-token $ARG2$ -c $ARG2$ -w $ARG3$
+}
+ 
+define service {
+      host_name                       kcare-service
+      service_description             KernelCare Server Status Checker By Key
+      check_command                   check_kcare!KERNELCARE_KEY
+      notifications_enabled           1
+      check_interval                 240
+      retry_interval                 60
+      max_check_attempts             4
+      notification_options           w,c,r
+      check_period                     24x7
+      notification_period             24x7
+}
+ 
+#define service {
+#       host_name                       kcare-service
+#       service_description             KernelCare Server Status Checker By login/token with outdated/inactive considered as critical
+#       check_command                   check_kcare_partner_opts!partner_login!partner_token!o,i!u
+#       notifications_enabled           1
+#       check_interval                  240
+#       retry_interval                  60
+#       max_check_attempts              4
+#       notification_options            w,c,r
+#       check_period                     24x7
+#       notification_period             24x7
+#}
+</code></pre></div><p><img src="/images/nagiosservices_zoom70.png" alt></p> <p><img src="/images/hmfile_hash_6837b862.png" alt></p></div> <div class="page-edit"><div class="edit-link"><a href="https://github.com/cloudlinux/kernelcare-doc/edit/dev/docs/nagios_plugin/README.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></div> </div> <div class="footer" data-v-20b89de8><div data-v-20b89de8><a href="https://cloudlinux.com" data-v-20b89de8><img src="/assets/img/we-are-cloudlinux.783ed390.svg" alt="We are Cloudlinux" data-v-20b89de8></a></div> <div class="footer-company-title" data-v-20b89de8>2019. CloudLinux Inc</div> <div data-v-20b89de8><div data-v-20b89de8><a href="https://www.kernelcare.com/install-kernelcare/" target="_blank" data-v-20b89de8>How to</a></div><div data-v-20b89de8><a href="https://www.kernelcare.com/faq/" target="_blank" data-v-20b89de8>Sales and Technical FAQs</a></div><div data-v-20b89de8><a href="https://cloudlinux.zendesk.com/hc/en-us/requests/new" target="_blank" data-v-20b89de8>Contact support</a></div><div data-v-20b89de8><a href="https://www.kernelcare.com/blog/" target="_blank" data-v-20b89de8>Blog</a></div></div> <div class="social" data-v-20b89de8><span class="footer-social-text" data-v-20b89de8></span> <a href="https://www.facebook.com/kernelcare/" target="_blank" data-v-20b89de8><img src="/fb.png" class="footer-social-logo" data-v-20b89de8></a><a href="https://twitter.com/kernelcare/" target="_blank" data-v-20b89de8><img src="/tw.png" class="footer-social-logo" data-v-20b89de8></a><a href="https://linkedin.com/company/cloudlinux" target="_blank" data-v-20b89de8><img src="/in.png" class="footer-social-logo" data-v-20b89de8></a><a href="https://www.youtube.com/channel/UCZ3YMHWnMP7TaxlXVay5-aw" target="_blank" data-v-20b89de8><img src="/ytube.png" class="footer-social-logo" data-v-20b89de8></a></div></div> <!----></div></div>
+    <script src="/assets/js/app.e4772670.js" defer></script><script src="/assets/js/16.a4bbb24c.js" defer></script>
+  </body>
+</html>
