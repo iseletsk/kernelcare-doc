@@ -55,8 +55,8 @@ Setup KernelCare.ePortal repo:
 $ cat > /etc/yum.repos.d/kcare-eportal.repo <<EOL
 [kcare-eportal]
 name=kcare-eportal
-baseurl=http://repo.eportal.kernelcare.com/x86_64/
-gpgkey=http://repo.cloudlinux.com/kernelcare-debian/6/conf/kcaredsa_pub.gpg
+baseurl=https://repo.eportal.kernelcare.com/x86_64/
+gpgkey=https://repo.cloudlinux.com/kernelcare-debian/6/conf/kcaredsa_pub.gpg
 enabled=1
 gpgcheck=1
 EOL
